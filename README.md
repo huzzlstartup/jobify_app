@@ -1,12 +1,12 @@
-# jobify
+# JobTracker App (MERN Stack)
 
-A job tracking MERN application.
+A full stack job tracking application where users can:
 
-- Where user can register, login, and update account
-- Then user can create job applications, and keep track of them, and only that user who can see, or modify the job using JWT
+- Register , login , and update their account
+- Create and manage job applications(CRUD)
+- Securely access and modify only their data using JWT authentication
 
 ### Getting Started
-
 
 1. **Configure Environment Variables:**
 
@@ -72,6 +72,7 @@ Now, Jobify is up and running on your local machine! Visit the specified localho
 - [keys generator](https://randomkeygen.com/)
 - [react icons package](https://react-icons.github.io/react-icons/)
 - In mongoose, when using the pre hook for saving user for example; be aware when updating the user as using findOneAndUpdate will NOT trigger that hook, instead use user.save() for updating to trigger it.
+
 - <details>
     <summary>In react, Why styledWrappers folder is not containing index.js that exports its files like in components or pages folders?
     </summary>
